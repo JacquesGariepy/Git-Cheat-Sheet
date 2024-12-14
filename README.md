@@ -499,3 +499,123 @@
 	touch .gitignore
 	touch ~/.gitignore
 	git config --global core.excludesFile ~/.gitignore
+
+## Workflow quotidien pour un développeur
+
+### Initialisation d'un dépôt
+
+1. Créez un nouveau répertoire pour votre projet :
+   ```
+   mkdir monprojet
+   cd monprojet
+   ```
+
+2. Initialisez un nouveau dépôt Git :
+   ```
+   git init
+   ```
+
+### Faire des modifications
+
+1. Créez ou modifiez des fichiers dans votre répertoire de projet.
+
+2. Vérifiez l'état de votre répertoire de travail :
+   ```
+   git status
+   ```
+
+3. Ajoutez les modifications à la zone de staging :
+   ```
+   git add <fichier>
+   git add .
+   ```
+
+### Commit des modifications
+
+1. Committez les modifications avec un message descriptif :
+   ```
+   git commit -m "Votre message de commit"
+   ```
+
+### Pousser les modifications
+
+1. Ajoutez un dépôt distant (si ce n'est pas déjà fait) :
+   ```
+   git remote add origin <url_distant>
+   ```
+
+2. Poussez les modifications vers le dépôt distant :
+   ```
+   git push origin master
+   ```
+
+### Tirer les modifications
+
+1. Récupérez et fusionnez les modifications du dépôt distant :
+   ```
+   git pull origin master
+   ```
+
+### Fusionner des branches
+
+1. Créez une nouvelle branche pour votre fonctionnalité ou correction de bug :
+   ```
+   git checkout -b branche-fonctionnalité
+   ```
+
+2. Faites des modifications et committez-les dans la branche de fonctionnalité.
+
+3. Revenez à la branche master :
+   ```
+   git checkout master
+   ```
+
+4. Fusionnez la branche de fonctionnalité dans la branche master :
+   ```
+   git merge branche-fonctionnalité
+   ```
+
+### Gérer les conflits
+
+1. S'il y a des conflits lors d'une fusion, Git marquera les fichiers conflictuels.
+
+2. Ouvrez les fichiers conflictuels et résolvez les conflits manuellement.
+
+3. Ajoutez les fichiers résolus à la zone de staging :
+   ```
+   git add <fichier>
+   ```
+
+4. Continuez le processus de fusion :
+   ```
+   git commit -m "Conflits de fusion résolus"
+   ```
+
+### Mettre de côté des modifications
+
+1. Mettez de côté vos modifications pour travailler sur autre chose :
+   ```
+   git stash
+   ```
+
+2. Appliquez les modifications mises de côté plus tard :
+   ```
+   git stash pop
+   ```
+
+### Synchroniser avec les dépôts distants
+
+1. Récupérez les modifications du dépôt distant :
+   ```
+   git fetch origin
+   ```
+
+2. Tirez les modifications et rebasez vos commits locaux :
+   ```
+   git pull --rebase origin master
+   ```
+
+### Ressources supplémentaires
+
+- [Documentation officielle de Git](https://git-scm.com/doc)
+- [Tutoriels Git par Atlassian](https://www.atlassian.com/git/tutorials)
