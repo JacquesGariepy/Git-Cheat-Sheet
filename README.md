@@ -615,6 +615,16 @@
    git pull --rebase origin master
    ```
 
+### Utiliser cherry-pick
+
+1. Pour appliquer un commit spécifique d'une branche à une autre :
+   ```
+   git checkout master
+   git log dev
+   git cherry-pick <sha-1>
+   git push
+   ```
+
 ### Ressources supplémentaires
 
 - [Documentation officielle de Git](https://git-scm.com/doc)
