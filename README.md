@@ -629,3 +629,56 @@
 
 - [Documentation officielle de Git](https://git-scm.com/doc)
 - [Tutoriels Git par Atlassian](https://www.atlassian.com/git/tutorials)
+
+## Travailler en équipe avec les pull requests
+
+### Créer une pull request
+
+1. Créez une nouvelle branche pour votre fonctionnalité ou correction de bug :
+   ```
+   git checkout -b branche-fonctionnalité
+   ```
+
+2. Faites des modifications et committez-les dans la branche de fonctionnalité.
+
+3. Poussez la branche de fonctionnalité vers le dépôt distant :
+   ```
+   git push origin branche-fonctionnalité
+   ```
+
+4. Créez une pull request sur la plateforme de gestion de votre dépôt (par exemple, GitHub, GitLab, Bitbucket).
+
+### Revoir une pull request
+
+1. Accédez à la pull request sur la plateforme de gestion de votre dépôt.
+
+2. Examinez les modifications proposées, ajoutez des commentaires et des suggestions si nécessaire.
+
+3. Approuvez ou demandez des modifications supplémentaires.
+
+### Fusionner une pull request
+
+1. Une fois la pull request approuvée, fusionnez-la dans la branche principale (par exemple, master) via la plateforme de gestion de votre dépôt.
+
+2. Mettez à jour votre dépôt local avec les modifications fusionnées :
+   ```
+   git checkout master
+   git pull origin master
+   ```
+
+### Commandes pour pousser et tirer les modifications
+
+1. Pousser les modifications vers le dépôt distant :
+   ```
+   git push origin <branche>
+   ```
+
+2. Tirer les modifications du dépôt distant :
+   ```
+   git pull origin <branche>
+   ```
+
+### Ressources supplémentaires
+
+- [Documentation officielle de Git](https://git-scm.com/doc)
+- [Tutoriels Git par Atlassian](https://www.atlassian.com/git/tutorials)
