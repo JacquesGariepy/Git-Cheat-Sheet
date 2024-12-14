@@ -1,4 +1,4 @@
-# Git - Sheet Cheat 
+# Git - Cheat Sheet
 ![Diagramme](/diagram.png)
 
 ## COMMANDE WINDOWS
