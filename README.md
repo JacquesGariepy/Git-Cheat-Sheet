@@ -1475,4 +1475,4 @@ Ces checklists visent à assurer qu'à chaque étape vous appliquez les bonnes p
 
 ---
 
-Ce guide complet vous a présenté tous les aspects essentiels de Git, des bases aux techniques avancées. En le suivant, vous devriez être capable d’utiliser Git de manière efficace, d’éviter la plupart des écueils classiques et de collaborer sereinement avec votre équipe sur n’importe quel projet versionné. Git est un outil puissant : sa maîtrise vous apportera un gain de productivité et de sécurité non négligeable dans vos développements. Bonne gestion de versions !
+Ce guide vous a présenté les aspects essentiels de Git, des bases aux techniques plus avancées. En le suivant, vous devriez être capable d’utiliser Git de manière efficace, d’éviter la plupart des écueils classiques et de collaborer sereinement avec votre équipe sur n’importe quel projet versionné. Git est un outil puissant : sa maîtrise vous apportera un gain de productivité et de sécurité non négligeable dans vos développements. Bonne gestion de versions !
