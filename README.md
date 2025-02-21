@@ -1225,7 +1225,7 @@ Les **pull requests (PR)** sont un élément central de la collaboration avec Gi
 - **Supprimez la branche** une fois la PR fusionnée (sauf si elle doit être conservée pour d’autres raisons). Comme évoqué, cela garde le dépôt propre.
 
 En appliquant ces pratiques, les pull requests deviennent un outil efficace de partage de connaissance, de relecture de code et de maintien de la qualité logicielle. Une bonne revue de code attrape non seulement les bugs, mais peut aussi améliorer la lisibilité, la performance, la sécurité, etc., du code. **Respectez le temps de vos relecteurs** : évitez de sortir une PR énorme le vendredi 18h, ou de demander une review urgente sur du code non testé. Si vous êtes relecteur, essayez de faire le retour dans un délai raisonnable (idéalement sous un jour ou deux), pour que l’auteur puisse intégrer vos retours rapidement ([Best Practices for Reviewing Pull Requests in GitHub](https://rewind.com/blog/best-practices-for-reviewing-pull-requests-in-github/#:~:text=A%20good%20code%20review%20process,hours%20after%20its%20first%20submission)) 
-([Pull Requests in Gitlabs](https://nira.com/gitlab-pull-request))
+([Merge Requests in Gitlabs](https://nira.com/gitlab-pull-request))
 
 En résumé, l’intégration de Git dans l’écosystème Windows est très bonne désormais. Visual Studio permet aux développeurs de gérer le contrôle de version dans leur flux de travail habituel, et TortoiseGit rend les interactions via l’explorateur très accessibles, même pour ceux peu familiers avec la ligne de commande. L’important est de trouver l’outil ou la combinaison d’outils qui rendent votre utilisation de Git la plus efficace et confortable possible.
 
