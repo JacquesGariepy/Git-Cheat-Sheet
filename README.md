@@ -15,7 +15,7 @@ En résumé, Git apporte :
 - **Expérimentation** : branches pour développer des fonctionnalités isolément, sans risque pour le code principal.
 - **Distribution** : chaque copie de travail est un dépôt complet, réduisant la dépendance à un serveur central.
 
-Git est utilisé massivement dans l’industrie. Des plateformes comme **GitHub**, **GitLab** ou **Bitbucket** reposent sur Git pour héberger le code, gérer les pull requests (propositions de modifications) et la collaboration open-source ou en entreprise. Maîtriser Git est devenu indispensable pour tout développeur. Dans ce guide complet, nous allons couvrir son utilisation de A à Z : depuis l’installation et les commandes de base pour débutant, jusqu’aux techniques avancées et aux meilleures pratiques employées par les experts, de manière à faire de ce document une véritable **bible de Git**.
+Git est utilisé massivement dans l’industrie. Des plateformes comme **GitHub**, **GitLab**, **Bitbucket** ou **Hugging Face** reposent sur Git pour héberger le code, gérer les pull requests (propositions de modifications) et la collaboration open-source ou en entreprise. Maîtriser Git est devenu indispensable pour tout développeur. Dans ce guide complet, nous allons couvrir son utilisation de A à Z : depuis l’installation et les commandes de base pour débutant, jusqu’aux techniques avancées et aux meilleures pratiques employées par les experts, de manière à faire de ce document une véritable **bible de Git**.
 
 
 # Meilleures pratiques Git (usage individuel)
