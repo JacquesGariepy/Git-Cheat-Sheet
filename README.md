@@ -1,4 +1,4 @@
-# Guide des meilleures pratiques Git
+# Le petit guide des meilleures pratiques Git
 
 Ce guide détaille les bonnes pratiques d’utilisation de Git, aussi bien en individuel qu’en équipe, et répertorie les commandes essentielles, des conseils pour éviter les erreurs fréquentes, ainsi que des outils utiles sous Windows. Des checklists pratiques en annexe vous aideront à appliquer concrètement ces recommandations.
 
