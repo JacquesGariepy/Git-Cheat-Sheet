@@ -1206,7 +1206,7 @@ Pour les développeurs qui aiment interagir via l’explorateur Windows, **Torto
 - **Case des fichiers** : Sur Windows, renommer une casse via l’UI Explorer ne déclenchera pas un event case-change. TortoiseGit a une fonction "rename" dans son menu context (dans les commandes avancées) qui aide. Ou renomme via VS (il ajoute une git mv).
 - **Bureau** : Windows 10 et + ont "Windows Terminal" qui peut intégrer un prompt custom (via oh-my-posh etc) pour afficher branch, statut. Installer Windows Terminal et configurer un PS1 git prompt peut être utile pour devs CLI.
 
-## 9. Pull requests et revues de code
+## 10. Pull requests et revues de code
 
 Les **pull requests (PR)** sont un élément central de la collaboration avec Git, particulièrement dans les workflows GitHub Flow et similaires. Une PR est à la fois une demande de fusion de votre branche dans la branche cible (souvent `main` ou `develop`) et un espace de discussion pour examiner le code. Voici quelques bonnes pratiques :
 
@@ -1224,13 +1224,12 @@ Les **pull requests (PR)** sont un élément central de la collaboration avec Gi
 
 - **Supprimez la branche** une fois la PR fusionnée (sauf si elle doit être conservée pour d’autres raisons). Comme évoqué, cela garde le dépôt propre.
 
-En appliquant ces pratiques, les pull requests deviennent un outil efficace de partage de connaissance, de relecture de code et de maintien de la qualité logicielle. Une bonne revue de code attrape non seulement les bugs, mais peut aussi améliorer la lisibilité, la performance, la sécurité, etc., du code. **Respectez le temps de vos relecteurs** : évitez de sortir une PR énorme le vendredi 18h, ou de demander une review urgente sur du code non testé. Si vous êtes relecteur, essayez de faire le retour dans un délai raisonnable (idéalement sous un jour ou deux), pour que l’auteur puisse intégrer vos retours rapidement ([Best Practices for Reviewing Pull Requests in GitHub](https://rewind.com/blog/best-practices-for-reviewing-pull-requests-in-github/#:~:text=A%20good%20code%20review%20process,hours%20after%20its%20first%20submission)).
-
-
+En appliquant ces pratiques, les pull requests deviennent un outil efficace de partage de connaissance, de relecture de code et de maintien de la qualité logicielle. Une bonne revue de code attrape non seulement les bugs, mais peut aussi améliorer la lisibilité, la performance, la sécurité, etc., du code. **Respectez le temps de vos relecteurs** : évitez de sortir une PR énorme le vendredi 18h, ou de demander une review urgente sur du code non testé. Si vous êtes relecteur, essayez de faire le retour dans un délai raisonnable (idéalement sous un jour ou deux), pour que l’auteur puisse intégrer vos retours rapidement ([Best Practices for Reviewing Pull Requests in GitHub](https://rewind.com/blog/best-practices-for-reviewing-pull-requests-in-github/#:~:text=A%20good%20code%20review%20process,hours%20after%20its%20first%20submission)) 
+([Pull Requests in Gitlabs](https://nira.com/gitlab-pull-request))
 
 En résumé, l’intégration de Git dans l’écosystème Windows est très bonne désormais. Visual Studio permet aux développeurs de gérer le contrôle de version dans leur flux de travail habituel, et TortoiseGit rend les interactions via l’explorateur très accessibles, même pour ceux peu familiers avec la ligne de commande. L’important est de trouver l’outil ou la combinaison d’outils qui rendent votre utilisation de Git la plus efficace et confortable possible.
 
-## 10. Annexe : Checklists détaillées pour chaque action Git
+## 11. Annexe : Checklists détaillées pour chaque action Git
 
 Pour conclure ce guide, voici des **checklists** qui récapitulent les étapes clés et bonnes pratiques à suivre pour les actions Git courantes. Utilisez-les comme référence rapide pour vous assurer de n'oublier aucune étape importante.
 
